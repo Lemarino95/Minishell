@@ -53,7 +53,6 @@ $(LIBFT):
 
 $(NAME): $(LIBFT) $(SRC_MAIN)
 	$(CC) $(CFLAGS) $(SRC_MAIN) $(LIBFT) $(OTHER_DIRS) -o $(NAME)
-# togli OTHER_DIRS se da fastidio
 	@echo "$(GREEN)Object files created!$(NO_COLOR)"
 
 clean:
